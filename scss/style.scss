@@ -1,0 +1,67 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+
+body {
+
+}
+button{
+	width: 80px;
+
+}
+
+
+header {
+	background-color: lightblue;
+	height: 6vw;
+	img {
+		width: 5.2vw;
+		margin: 0;
+
+	}
+
+
+}
+nav {
+	h1{
+		
+	}
+	
+	
+	ul{
+		width: 100%;
+		text-align: center;
+		list-style: none;
+	}
+	a {
+		text-decoration: none;
+	}
+	li {
+		width: 100%;
+		
+	}
+}
+#navLinks {
+	overflow: hidden;
+}
+
+.hide {
+	height: 0;
+	-webkit-transition:height 1s; 
+	transition:height 1s;
+
+}
+
+.show {
+	height: 100px;
+	-webkit-transition:height 1s;
+	transition:height 1s;
+}
+
+@media (min-width: 768px){
+	#navButt {
+		display: none;
+	}
+}
